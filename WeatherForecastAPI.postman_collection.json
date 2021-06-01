@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "fa459a27-19f7-43d8-819c-72d16845a533",
+		"name": "OpenweatherAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WeatherForecastDataWithZipCode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"zipCode\" : 85383,\n    \"country\" : \"US\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/weatherforecast/data/retrieve",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"weatherforecast",
+						"data",
+						"retrieve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherForecastDataWithZipCodeAndCountry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"zipCode\" : 85383,\n    \"country\" : \"US\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/weatherforecast/data/retrieve",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"weatherforecast",
+						"data",
+						"retrieve"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
