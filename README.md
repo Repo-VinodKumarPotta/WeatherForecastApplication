@@ -24,7 +24,7 @@ Please follow below steps to import and run the project.
 
 ## Usage
 
-Once application is started successfully. Please use swagger-ui (http://<hostname>:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/) to access API methods. 
+Once application is started successfully. Please use swagger-ui (http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/) to access API methods. 
 
 I have also uploaded postman collection for your reference. 
 

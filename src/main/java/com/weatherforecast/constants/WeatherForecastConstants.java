@@ -13,7 +13,6 @@ public class WeatherForecastConstants {
     public static final String URL_V1_PREFIX = "/v1";
     public static final String URL_WEATHERFORECAST_DATA_RETRIEVE = "/weatherforecast/data/retrieve";
     public static final String TEMPERATURE_IN_UNITS = "metric";
-    public static final String QUERY_PARAM_ZIP = "zip";
     public static final String QUERY_PARAM_ZIP_COUNTRY = "zip";
     public static final String QUERY_PARAM_UNITS = "units";
     public static final String QUERY_PARAM_APIKEY = "appid";
