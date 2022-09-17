@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run Shell Script') {
             steps {
-                echo "Hello"
+                sh(script: 'echo Hello World')
             }
         }
     }
