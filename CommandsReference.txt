@@ -1,0 +1,11 @@
+docker login -u "vinodkumarpotta" -p "Vinu9949@" docker.io
+docker images
+
+
+docker rmi -f a04b2aa9c20
+
+docker image rm vinodkumarpotta/ms-weatherforecast-service:latest --force
+docker build -t vinodkumarpotta/ms-weatherforecast-service:latest -f Dockerfile .
+docker push vinodkumarpotta/ms-weatherforecast-service:latest
+docker run -p  8080:8080 vinodkumarpotta/ms-weatherforecast-service:latest
+docker image rm vinodkumarpotta/ms-weatherforecast-service:latest --force
