@@ -7,12 +7,9 @@ pipeline {
                 echo "$GIT_BRANCH"
             }
         }
-        stage('Run Shell Script'){
+        stage('Run Shell Script') {
             steps {
                 echo "Hello"
-            }
-            steps {
-                sh(script: 'echo Hello World')
             }
         }
     }
