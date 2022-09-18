@@ -12,5 +12,14 @@ pipeline {
                 sh(script: 'echo Hello World')
             }
         }
+        stage('Run Shell Script') {
+            steps {
+                sh(script: """
+                    mvn clean
+                    mvn install
+                    mvn package -u
+                """)
+            }
+        }
     }
 }
