@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven : 'maven'
+    }
+
     stages {
         stage('Verify Branch') {
             steps {
@@ -16,8 +20,6 @@ pipeline {
             steps {
                 sh(script: """
                     java -version
-                    export MAVEN_HOME=/Volumes/VinodKumarPotta/Softwares/apache-maven-3.6.3
-                    export PATH=$PATH:$MAVEN_HOME/bin
                     mvn --version
                     mvn clean install
                 """)
