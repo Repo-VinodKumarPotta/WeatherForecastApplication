@@ -21,6 +21,7 @@ pipeline {
                 sh(script: """
                     java -version
                     mvn --version
+                    docker -v
                 """)
             }
         }
