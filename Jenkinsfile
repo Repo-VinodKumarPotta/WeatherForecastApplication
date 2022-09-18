@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'MS Deploy Maven'
+    }
 
     tools {
         maven 'Maven'
@@ -21,7 +23,6 @@ pipeline {
                 sh(script: """
                     java -version
                     mvn --version
-                    mvn clean install
                 """)
             }
         }
