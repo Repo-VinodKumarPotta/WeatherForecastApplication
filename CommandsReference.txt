@@ -1,4 +1,4 @@
-docker login -u "vinodkumarpotta" -p "Vinu9949@" docker.io
+docker login -u "vinodkumarpotta" -p "PASSWORD-DEFAULT-KNOWN" docker.io
 docker images
 
 
