@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'MS Deploy Maven'
+        label any
     }
 
     tools {
