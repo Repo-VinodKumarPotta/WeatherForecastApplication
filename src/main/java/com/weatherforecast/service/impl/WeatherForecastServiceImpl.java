@@ -1,4 +1,4 @@
-package com.weatherforecast.integration.service.impl;
+package com.weatherforecast.service.impl;
 
 import com.weatherforecast.constants.WeatherForecastConstants;
 import com.weatherforecast.exception.ClientExceptions;

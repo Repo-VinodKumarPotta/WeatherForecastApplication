@@ -1,6 +1,6 @@
-package com.weatherforecast.juint.mockito.controller;
+package com.weatherforecast.controller;
 
-import com.weatherforecast.integration.service.impl.WeatherForecastServiceImpl;
+import com.weatherforecast.service.impl.WeatherForecastServiceImpl;
 import com.weatherforecast.model.request.WeatherForecastRequest;
 import com.weatherforecast.model.response.WeatherForecastResponse;
 import com.weatherforecast.model.response.helper.WeatherForecastDetails;

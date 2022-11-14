@@ -2,7 +2,7 @@ package com.weatherforecast.juint.mockito.service.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.weatherforecast.exception.ClientExceptions;
-import com.weatherforecast.integration.service.impl.WeatherForecastServiceImpl;
+import com.weatherforecast.service.impl.WeatherForecastServiceImpl;
 import com.weatherforecast.model.helper.WeatherForecastHelperMain;
 import com.weatherforecast.model.request.WeatherForecastRequest;
 import com.weatherforecast.model.response.WeatherForecastResponse;

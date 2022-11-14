@@ -1,4 +1,4 @@
-package com.weatherforecast.integration.service.impl;
+package com.weatherforecast.service.impl;
 
 import com.weatherforecast.WeatherForecastApplication;
 import com.weatherforecast.model.request.WeatherForecastRequest;

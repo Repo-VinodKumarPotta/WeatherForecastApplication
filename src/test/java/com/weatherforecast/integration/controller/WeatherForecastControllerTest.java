@@ -1,7 +1,7 @@
 package com.weatherforecast.integration.controller;
 
 import com.weatherforecast.WeatherForecastApplication;
-import com.weatherforecast.juint.mockito.controller.WeatherForecastController;
+import com.weatherforecast.controller.WeatherForecastController;
 import com.weatherforecast.model.request.WeatherForecastRequest;
 import com.weatherforecast.model.response.WeatherForecastResponse;
 import org.junit.Test;
